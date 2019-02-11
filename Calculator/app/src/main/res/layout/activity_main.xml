@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tvKQ"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:textSize="25sp"
+
+        android:lines="2"
+        android:singleLine="true"
+        android:ellipsize="start"
+        android:gravity="right" />
+
+    <TableLayout
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+
+            <Button
+                android:id="@+id/btn0"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:text="0"
+                />
+            <Button
+                android:id="@+id/btn1"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:text="1"
+                />
+            <Button
+                android:id="@+id/btn2"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:text="2"
+                />
+            <Button
+                android:id="@+id/btn3"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:text="3"
+                />
+            <Button
+                android:id="@+id/btn4"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:text="4"
+                />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+
+            <Button
+                android:id="@+id/btn5"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:text="5"
+                />
+            <Button
+                android:id="@+id/btn6"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:text="6"
+                />
+            <Button
+                android:id="@+id/btn7"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:text="7"
+                />
+            <Button
+                android:id="@+id/btn8"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:text="8"
+                />
+            <Button
+                android:id="@+id/btn9"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:text="9"
+                />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+
+            <Button
+                android:id="@+id/btnCong"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:text="+"
+                />
+            <Button
+                android:id="@+id/btnTru"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:text="-"
+                />
+            <Button
+                android:id="@+id/btnNhan"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:text="x"
+                />
+            <Button
+                android:id="@+id/btnChia"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:text=":"
+                />
+            <Button
+                android:id="@+id/btnPhay"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:text=","
+                />
+
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/btnDiv"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:text="Chia lấy nguyên"
+                />
+
+            <Button
+                android:id="@+id/btnMod"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:text="chia lấy dư"
+                />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/btnGCD"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:text="Ước chung lớn nhất"
+                />
+
+            <Button
+                android:id="@+id/btnLCD"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:text="bội chung nhỏ nhất"
+                />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/btnNguyento"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:text="Số nguyên tố"
+                />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/btnAmlich"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:text="Âm lịch"
+                />
+
+            <Button
+                android:id="@+id/btnNhuan"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:text="Năm nhuận"
+                />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/btnClear"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:text="Clear"
+                />
+
+            <Button
+                android:id="@+id/btnBackSpace"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:text="Back space"
+                />
+
+            <Button
+                android:id="@+id/btnBang"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:text="="
+                />
+
+        </TableRow>
+
+    </TableLayout>
+
+</LinearLayout>
